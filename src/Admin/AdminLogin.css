@@ -1,0 +1,93 @@
+/* General styles for the login page */
+.log1n-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../img/adbox-mj.jpg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(10, 10, 10);
+}
+
+.log1n-box {
+  /* background-image: url(../img/adbox-mj.jpg); */
+  border-radius: 20px; /* Increased border radius for a more rounded effect */
+  padding: 20px; /* Increased padding for more space inside the box */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Stronger shadow for better emphasis */
+  width: 100%;
+  padding-bottom: 60px;
+  max-width: 600px; /* Increased max-width for a larger box */
+  text-align: center;
+}
+.log1n-box a{
+  text-decoration: underline;
+  color: whitesmoke;
+}
+.log1n-box a :hover{
+  /* text-decoration: underline; */
+  background-color: rgb(5, 18, 209);
+}
+h2 {
+  color: #d9d8e9;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin-bottom: 40px; /* Increased margin-bottom for more space below the heading */
+  font-size: 48px; /* Increased font size for better visibility */
+}
+.log1n-box h2{
+  color: #195517;
+  padding-bottom: 100px;
+}
+.input-group {
+  margin-bottom: 25px; /* Increased margin-bottom for more space between input fields */
+  text-align: left;
+  background-color: transparent;
+}
+p{
+  color: white;
+}
+input {
+  width: 100%;
+  padding: 15px; /* Increased padding for a larger input area */
+  border-radius: 10px; /* Increased border radius for a more rounded input field */
+  border: 1px solid #002fff;
+  background-color: #003C8F;
+  color: rgb(10, 10, 10);
+  font-size: 18px; /* Increased font size for better readability */
+}
+
+input::placeholder {
+  color: #002fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px; /* Increased margin-bottom for more space above input fields */
+  font-size: 16px; /* Increased font size for better readability */
+}
+
+.error-text {
+  color: #FF6F6F;
+  font-size: 16px; /* Increased font size for better readability */
+}
+
+.login-btn {
+  background-color: #0b08c2;
+  color: #fcfdff;
+  border: none;
+  padding: 15px 60px; /* Increased padding for a larger button */
+  border-radius: 10px; /* Increased border radius for a more rounded button */
+  cursor: pointer;
+  font-size: 20px; /* Increased font size for better readability */
+}
+
+.login-btn:disabled {
+  background-color: #B0B0B0;
+  cursor: not-allowed;
+}
+
+a {
+  color: #ededf5;
+  font-size: 20px;
+  text-decoration: wavy;
+}

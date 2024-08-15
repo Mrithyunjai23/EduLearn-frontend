@@ -1,0 +1,114 @@
+/* Import a stylish font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Reset body and html margins and paddings, set height */
+.body1 {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif; /* Apply the stylish font */
+    background-size: cover;
+    background-image: url("C:\Users\BHARATH.S\OneDrive\Desktop\Deployment\frontend\EduH1\mine\src\img\mj1.jpg");
+    background-position: center;
+    background-attachment: fixed; /* Make background image fixed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for centering content */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+    justify-content: center;
+    padding: 40px; /* Add some padding */
+    background: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background for better contrast */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Enhance shadow for depth */
+}
+
+/* Styling for the header */
+.heade {
+    text-align: center; /* Center text alignment */
+    margin-bottom: 40px; /* Space below the header section */
+}
+
+/* Styling for the heading */
+.heading {
+    font-size: 4.5rem; /* Larger font size for prominence */
+    color: #ffffff; /* White color for contrast on dark background */
+    margin-bottom: 20px; /* Space below the heading */
+    font-weight: 800; /* Extra bold for emphasis */
+    text-transform: uppercase; /* Uppercase text for a strong visual impact */
+    letter-spacing: 1px; /* Increased spacing between letters */
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6), 0 0 15px #ffffff; /* Multiple shadows for a glowing effect */
+}
+
+/* Styling for the slogan */
+.slogan {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6), 0 0 25px #ffffff;
+    font-size: 1.25rem; /* Larger font size for prominence */
+    color: #f0f0f0; /* Bright color to highlight the slogan */
+    margin: 10px 0 20px; /* Adjust margins for better spacing */
+    font-weight: 600; /* Bold font weight for emphasis */
+    letter-spacing: 0.5px; /* Slight spacing between letters for better legibility */
+    line-height: 1.4; /* Increased line height for better readability */
+}
+
+/* Styling for additional information */
+.info {
+    font-size: 1.25rem; /* Slightly larger font size for better readability */
+    color: #f0f0f0; /* Light color for text, maintains contrast on dark background */
+    margin: 20px 0; /* Consistent vertical spacing */
+    line-height: 1.6; /* Increased line height for better readability */
+    max-width: 700px; /* Increase the max-width for better readability on larger screens */
+    text-align: center; /* Center-align text to match the overall centered layout */
+    background: rgba(255, 255, 255, 0.1); /* Light semi-transparent background to enhance readability */
+    padding: 20px; /* Padding around the text for better spacing */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Centering container with background image and gradient overlay */
+.cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+/* Styling for inner container */
+.top {
+    text-align: center;
+     /*background: rgba(255, 255, 255, 0.2); Semi-transparent background for better readability */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow for a stronger effect */
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6), 0 0 25px #ffffff;
+}
+
+/* Styling for buttons */
+.Adm {
+    margin: 15px;
+    font-size: 20px;
+    padding: 15px 40px; /* Increase padding for a more prominent button */
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; /* Apply the stylish font to buttons */
+    font-weight: 600; /* Make the button text bold */
+    transition: all 0.4s ease;
+    outline: none; /* Remove default outline */
+}
+
+/* Hover effect for buttons */
+.Adm:hover {
+    background-color: #1e90ff; /* Bright blue background on hover */
+    color: #ffffff; /* Keep text color white */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+} 

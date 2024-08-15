@@ -1,0 +1,224 @@
+.d4shb0ard-c0ntain3r {
+    display: flex;
+    position: relative;
+}
+
+.s1de-bar {
+    width: 330px;
+    background: #333;
+    color: #fff;
+    transition: transform 0.3s ease;
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.s1de-bar.h1dden {
+    transform: translateX(-100%);
+}
+
+.s1de-bar.v1sible {
+    transform: translateX(0);
+}
+
+.s1de-bar-l0g0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: #444;
+    position: relative;
+    height: 80px;
+}
+
+.s1de-bar-l0g0-img {
+    height: 200px;
+    width: auto;
+}
+
+.n4v-l1nks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.n4v-l1nks li {
+    padding: 20px;
+    border-bottom: 1px solid #555;
+}
+
+.n4v-l1nks li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.n4v-l1nks li a .ic0n {
+    margin-right: 15px;
+}
+
+.s1de-bar-f00t3r {
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s3tt1ngs-btn, .l0g0ut-btn {
+    background: #555;
+    border: none;   
+    color: #fff;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.s3tt1ngs-btn:hover, .l0g0ut-btn:hover {
+    background: #ed1414;
+}
+
+.s3tt1ngs-btn .ic0n, .l0g0ut-btn .ic0n {
+    margin-right: 15px;
+}
+
+.m4in-c0nt3nt {
+    margin-left: 300px;
+    transition: margin-left 0.3s ease;
+    width: 100%;
+    padding: 20px;
+}
+
+.m4in-c0nt3nt.c0ntract3d {
+    margin-left: 0;
+}
+
+.s1de-bar-t0ggl3 {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    background: #444;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.h3ad3r {
+    background: #f8f9fa88;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 25px;
+    text-align: center;
+    border-bottom: -px solid #ddddddc5;
+}
+
+.h3ad3r h1 {
+    margin: 0;
+    font-size: 44px;
+    color: #000000;
+}
+
+.alt-m4in-c0ntent { 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.alt-ch4rts-s3ct10n {
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.l1ne-ch4rt, .d0ughnu7-ch4rt {
+    width: 45%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.l1ne-ch4rt h2,.d0ughnu7-ch4rt h2{
+    color: #000000;
+}
+
+.inst1tut10ns h2,.t0p-p3rf0rm3rs h2{
+    color: #000000;
+}
+
+.alt-l1sts-s3ct10n {
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inst1tut10ns, .t0p-p3rf0rm3rs {
+    border-radius: 25px;
+    width: 45%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inst1tut10ns-l1st, .ach13v3rs-l1st {
+    list-style: none; 
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+.inst1tut10n-1t3m, .ach13v3r-1t3m {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.inst1tut10n-1t3m:last-child, .ach13v3r-1t3m:last-child {
+    border-bottom: none;
+}
+
+.inst1tut10n-n4m3, .ach13v3r-n4m3 {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.f00t3r {
+    background: #f8f9fab9;
+    padding: 20px;
+    margin-right: -20px;
+    margin-left: -20px;
+    margin-bottom: -20px;
+    text-align: center;
+    border-top: 0px solid #ddd;
+    margin-top: 0px;
+}
+
+.f00t3r p {
+    margin: 0px;
+    color: #333;
+}
+
+/* AdminDashboard.css */
+
+/* For Top Achievers Section */
+.top-achievers-list {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}

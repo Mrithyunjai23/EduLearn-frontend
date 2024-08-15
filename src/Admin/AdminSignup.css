@@ -1,0 +1,99 @@
+/* AdminSignup.css */
+
+/* Import a stylish font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Reset body and html margins and paddings, set height */
+.body6{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif; /* Apply the stylish font */
+    background-image: url('../img/adbox-mj.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centering container for sign-up box */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for the sign-up box */
+.signup-b0x {
+    background-color: #33333300; /* Slightly lighter dark background */
+    padding: 40px 30px; /* Reduced padding inside the box */
+    border-radius: 15px; /* Slightly rounded corners */
+    text-align: center; /* White text color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    max-width: 350px; /* Reduced maximum width for a more compact box */
+    width: 100%; /* Dark border for better definition */
+}
+.signup-b0x h2{
+    color: #195517;
+}
+/* Styling for the input groups */
+.input-group {
+    margin-bottom: 15px; /* Space between input groups */
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+/* Styling for the labels */
+.input-group label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space below labels */
+    color: #bbb; /* Light gray color for text */
+    font-size: 13px; /* Slightly smaller font size */
+}
+
+/* Styling for the input fields */
+.input-group input {
+    width: 100%; /* Full width input fields */
+    padding: 10px; /* Reduced padding inside the fields */
+    border: 1px solid #555; /* Dark gray border */
+    border-radius: 8px; /* Slightly rounded corners for the fields */
+    background-color: white; /* Dark background color for input fields */
+    color: #fff; /* White text color */
+    font-size: 14px; /* Smaller font size */
+}
+
+/* Styling for the button */
+.signup-btn {
+    width: 100%; /* Full width button */
+    padding: 10px 0; /* Reduced padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    color: #fff; /* White text color */
+    background-color: #1e88e5; /* Blue background color */
+    font-size: 16px; /* Slightly smaller font size for the button */
+    font-weight: 600; /* Bold font weight */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.signup-btn:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+}
+
+/* Styling for the additional information section */
+.additional-info {
+    margin-top: 15px; /* Space above the additional info */
+    font-size: 13px; /* Smaller font size */
+    color: #bbb; /* Light gray color for text */
+}
+
+/* Styling for links */
+.additional-info a {
+    color: #1e88e5; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.additional-info a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
